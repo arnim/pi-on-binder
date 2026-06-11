@@ -21,6 +21,11 @@ preinstalled.
 
 ---
 
+## 📓 Quick tour
+
+Open **`index.ipynb`** after launch — it walks through Python, R, and
+pi-coding-agent with ready-to-run cells.
+
 ## 🚀 Launch on MyBinder
 
 Replace `USER` with your GitHub/GitLab username after pushing:
