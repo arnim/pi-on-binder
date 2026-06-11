@@ -31,3 +31,7 @@ venv/
 # OS
 .DS_Store
 Thumbs.db
+
+# Deploy keys
+.github-key
+.github-key.pub

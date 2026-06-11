@@ -13,7 +13,7 @@ dependencies:
   - jupyterlab
   - notebook
   - ipykernel
-  - irkernel
+  - r-irkernel   # R kernel for Jupyter
 
   # --- Python scientific / computational stack ---
   - numpy
@@ -56,8 +56,6 @@ dependencies:
   - r-shiny
   - r-rmarkdown
   - r-knitr
-  - r-irkernel   # R kernel for Jupyter
-
   # --- System / dev tools ---
   - git
   - curl
