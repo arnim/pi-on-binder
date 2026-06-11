@@ -1,0 +1,33 @@
+# Conda
+.pixi/
+__pycache__/
+*.py[cod]
+
+# R
+.Rproj.user/
+.Rhistory
+.RData
+.Ruserdata
+*.Rproj
+
+# Jupyter
+.ipynb_checkpoints/
+*.ipynb_checkpoints/
+
+# pi
+.pi/
+.pi-jupyter/
+.pi/
+
+# Node
+node_modules/
+package-lock.json
+
+# Environment
+.env
+.venv/
+venv/
+
+# OS
+.DS_Store
+Thumbs.db

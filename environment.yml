@@ -1,0 +1,69 @@
+name: pi-python-r
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  # Core languages
+  - python=3.11
+  - r-base=4.4
+  - r-essentials
+  - nodejs=22
+
+  # Jupyter ecosystem
+  - jupyterlab
+  - notebook
+  - ipykernel
+  - irkernel
+
+  # --- Python scientific / computational stack ---
+  - numpy
+  - scipy
+  - pandas
+  - matplotlib
+  - seaborn
+  - plotly
+  - scikit-learn
+  - statsmodels
+  - sympy
+  - networkx
+
+  # --- Python data I/O ---
+  - openpyxl
+  - xlrd
+  - beautifulsoup4
+  - lxml
+  - requests
+  - aiohttp
+
+  # --- Python utilities ---
+  - tqdm
+  - rich
+  - click
+  - pyyaml
+  - python-dotenv
+
+  # --- R scientific / computational stack ---
+  - r-tidyverse
+  - r-data.table
+  - r-caret
+  - r-randomForest
+  - r-glmnet
+  - r-forecast
+  - r-zoo
+  - r-lubridate
+  - r-stringr
+  - r-plotly
+  - r-shiny
+  - r-rmarkdown
+  - r-knitr
+  - r-irkernel   # R kernel for Jupyter
+
+  # --- System / dev tools ---
+  - git
+  - curl
+  - wget
+  - pip
+
+  # Python packages not in conda (or preferred via pip)
+  - pip:
+      - jupyter-pi-kernel>=0.1.0

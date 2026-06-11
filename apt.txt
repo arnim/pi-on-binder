@@ -1,0 +1,7 @@
+# System packages for mybinder-pi-python-r
+# (most dependencies come via conda; these are fallbacks)
+
+build-essential
+libcurl4-openssl-dev
+libssl-dev
+libxml2-dev
