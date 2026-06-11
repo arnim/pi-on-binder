@@ -8,9 +8,6 @@ echo "============================================"
 # --- Install pi-coding-agent globally ---
 npm install -g --ignore-scripts @earendil-works/pi-coding-agent
 
-# --- Install Jupyter Pi kernel ---
-python -m pi_kernel install --user
-
 # --- Install R kernel (IRkernel) ---
 R -e 'IRkernel::installspec(user = FALSE)'
 
@@ -20,5 +17,4 @@ echo " Setup complete!"
 echo "  - Python 3.11  (scientific stack)"
 echo "  - R 4.4        (tidyverse, caret, ...)"
 echo "  - pi-coding-agent"
-echo "  - Jupyter Pi kernel"
 echo "============================================"

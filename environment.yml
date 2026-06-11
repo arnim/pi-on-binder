@@ -61,7 +61,3 @@ dependencies:
   - curl
   - wget
   - pip
-
-  # Python packages not in conda (or preferred via pip)
-  - pip:
-      - jupyter-pi-kernel>=0.1.0
