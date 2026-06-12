@@ -8,8 +8,7 @@ echo "============================================"
 # --- Install pi-coding-agent globally ---
 npm install -g --ignore-scripts @earendil-works/pi-coding-agent
 
-# --- Install R kernel (IRkernel) ---
-R -e 'IRkernel::installspec(user = FALSE)'
+# IRkernel is already registered by repo2docker during the conda build step.
 
 echo ""
 echo "============================================"
