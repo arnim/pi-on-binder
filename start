@@ -1,3 +1,0 @@
-#!/bin/bash
-# Binder start script – launch JupyterLab by default
-exec jupyter lab --ip=0.0.0.0 --port="${PORT:-8888}" --no-browser --NotebookApp.token='' --NotebookApp.password=''
