@@ -5,7 +5,7 @@ environments for computational tasks, plus the
 [pi-coding-agent](https://www.npmjs.com/package/@earendil-works/pi-coding-agent)
 preinstalled.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yfiua/pi-on-binder/HEAD)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yfiua/pi-on-binder/HEAD?urlpath=%2Fdoc%2Ftree%2Findex.ipynb)
 
 ---
 
@@ -30,7 +30,7 @@ pi-coding-agent with ready-to-run cells.
 Click the Binder badge above, or visit:
 
 ```
-https://mybinder.org/v2/gh/yfiua/pi-on-binder/HEAD
+https://mybinder.org/v2/gh/yfiua/pi-on-binder/HEAD?urlpath=%2Fdoc%2Ftree%2Findex.ipynb
 ```
 
 ---
@@ -79,6 +79,10 @@ pi -p "Analyze the dataset in data.csv"
 ├── environment.yml   ← conda environment (Python + R + Node.js + Jupyter)
 ├── apt.txt           ← Ubuntu system packages
 ├── postBuild         ← runs after image build (installs pi)
-├── start             ← entrypoint (launches JupyterLab)
+├── index.ipynb       ← quick-start walkthrough notebook
 └── README.md
 ```
+
+## 📄 License
+
+MIT – use freely for research, teaching, and development.
