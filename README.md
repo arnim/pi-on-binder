@@ -33,6 +33,18 @@ Click the Binder badge above, or visit:
 https://mybinder.org/v2/gh/yfiua/pi-on-binder/HEAD?urlpath=%2Fdoc%2Ftree%2Findex.ipynb
 ```
 
+### Launch with a pi API key
+
+URL-encode your key, then launch via `pi-env`:
+
+```text
+OpenAI:     https://mybinder.org/v2/gh/yfiua/pi-on-binder/HEAD?urlpath=pi-env%3Fprovider%3Dopenai%26api_key%3DYOUR_KEY
+Anthropic:  https://mybinder.org/v2/gh/yfiua/pi-on-binder/HEAD?urlpath=pi-env%3Fprovider%3Danthropic%26api_key%3DYOUR_KEY
+OpenRouter: https://mybinder.org/v2/gh/yfiua/pi-on-binder/HEAD?urlpath=pi-env%3Fprovider%3Dopenrouter%26api_key%3DYOUR_KEY
+```
+
+This sets `PI_PROVIDER` plus the matching `*_API_KEY` for the session. Do not share URLs containing real keys.
+
 ---
 
 ## 💻 Local usage
