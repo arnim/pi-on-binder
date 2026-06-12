@@ -10,6 +10,9 @@ npm install -g --ignore-scripts @earendil-works/pi-coding-agent
 
 # IRkernel is already registered by repo2docker during the conda build step.
 
+# Preload the default JupyterLab workspace with a terminal open.
+jupyter lab workspaces import --name default workspace.jupyterlab-workspace
+
 echo ""
 echo "============================================"
 echo " Setup complete!"
