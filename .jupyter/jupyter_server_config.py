@@ -8,5 +8,5 @@ c.ServerApp.jpserver_extensions = {
 }
 
 c.ServerApp.terminado_settings = {
-    "shell_command": ["/usr/local/bin/pi-shell-wrapper"],
+    "shell_command": ["/home/jovyan/pi-shell-wrapper"],
 }
