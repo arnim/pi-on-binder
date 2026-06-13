@@ -29,7 +29,7 @@ class PiEnvHandler(JupyterHandler):
     def get(self):
         provider = self.get_argument("provider", "").strip()
         api_key = self.get_argument("api_key", "").strip()
-        next_url = self.get_argument("next", "terminals/1").lstrip("/")
+        next_url = self.get_argument("next", "lab").lstrip("/")
 
         if provider and api_key:
             os.environ["PI_PROVIDER"] = provider
