@@ -1,0 +1,6 @@
+# Pi Agent – opens a terminal with pi-coding-agent pre-launched
+- title: Pi Agent
+  description: Launch pi-coding-agent in a terminal
+  icon: pi-logo.svg
+  type: terminal
+  source: pi --model openrouter/deepseek/deepseek-v4-pro --approve

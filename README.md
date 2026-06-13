@@ -82,6 +82,13 @@ pi
 pi -p "Analyze the dataset in data.csv"
 ```
 
+### Launch pi from the JupyterLab launcher
+
+After launch, click the **Pi Agent** icon (with the pi logo) in the launcher.
+It opens a terminal and runs pi automatically.
+
+Alternatively, open a terminal and type `pi`.
+
 ---
 
 ## 📁 File overview
@@ -89,9 +96,11 @@ pi -p "Analyze the dataset in data.csv"
 ```
 .
 ├── environment.yml   ← conda environment (Python + R + Node.js + Jupyter)
-├── apt.txt           ← Ubuntu system packages
-├── postBuild         ← runs after image build (installs pi)
-├── index.ipynb       ← quick-start walkthrough notebook
+├── jp_app_launcher.yaml  ← Pi Agent launcher icon config
+├── pi-logo.svg           ← pi branding icon for launcher
+├── apt.txt               ← Ubuntu system packages
+├── postBuild             ← runs after image build (installs pi)
+├── index.ipynb           ← quick-start walkthrough notebook
 └── README.md
 ```
 

@@ -14,6 +14,7 @@ dependencies:
   - notebook
   - ipykernel
   - r-irkernel   # R kernel for Jupyter
+  - jupyter_app_launcher   # custom launcher entries via YAML
 
   # --- Python scientific / computational stack ---
   - numpy
