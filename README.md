@@ -43,7 +43,7 @@ Anthropic:  https://mybinder.org/v2/gh/yfiua/pi-on-binder/HEAD?urlpath=pi-env%3F
 OpenRouter: https://mybinder.org/v2/gh/yfiua/pi-on-binder/HEAD?urlpath=pi-env%3Fprovider%3Dopenrouter%26api_key%3DYOUR_KEY
 ```
 
-This sets `PI_PROVIDER` plus the matching `*_API_KEY` for the session. Do not share URLs containing real keys.
+This sets `PI_PROVIDER` plus the matching `*_API_KEY` for the session, opens a terminal, and starts `pi --model openrouter/deepseek/deepseek-v4-pro --approve` automatically. Do not share URLs containing real keys.
 
 ---
 
