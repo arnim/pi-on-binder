@@ -5,7 +5,7 @@ environments for computational tasks, plus the
 [pi-coding-agent](https://www.npmjs.com/package/@earendil-works/pi-coding-agent)
 preinstalled.
 
-[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yfiua/pi-on-binder/HEAD?urlpath=%2Fdoc%2Ftree%2Findex.ipynb)
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/yfiua/pi-on-binder/HEAD)
 
 ---
 
