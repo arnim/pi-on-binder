@@ -6,3 +6,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 c.ServerApp.jpserver_extensions = {
     "pi_binder_env": True,
 }
+
+c.ServerApp.terminado_settings = {
+    "shell_command": ["/usr/local/bin/pi-shell-wrapper"],
+}

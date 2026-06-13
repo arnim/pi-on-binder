@@ -10,10 +10,30 @@ npm install -g --ignore-scripts @earendil-works/pi-coding-agent
 
 # IRkernel is already registered by repo2docker during the conda build step.
 
+# --- Create shell wrapper for workspace auto-start ---
+cat > /usr/local/bin/pi-shell-wrapper << 'WRAPPER'
+#!/bin/bash
+if [ -f /tmp/.pi-workspace-start ]; then
+    rm -f /tmp/.pi-workspace-start
+    exec pi --model openrouter/deepseek/deepseek-v4-pro --approve
+fi
+exec /bin/bash
+WRAPPER
+chmod +x /usr/local/bin/pi-shell-wrapper
+
+# --- Marker: first terminal in workspace will auto-start pi ---
+touch /tmp/.pi-workspace-start
+
+# --- Preload workspace with split layout ---
+/srv/conda/envs/notebook/bin/jupyter lab workspaces import \
+    --name default \
+    workspace.jupyterlab-workspace
+
 echo ""
 echo "============================================"
 echo " Setup complete!"
 echo "  - Python 3.11  (scientific stack)"
 echo "  - R 4.4        (tidyverse, caret, ...)"
 echo "  - pi-coding-agent"
+echo "  - workspace: terminal + index.ipynb"
 echo "============================================"
