@@ -14,14 +14,14 @@
         "widgets": []
       },
       "left": {
-        "collapsed": true,
+        "collapsed": false,
         "widgets": ["filebrowser", "running-sessions"]
       },
       "right": {
         "collapsed": true,
         "widgets": []
       },
-      "relativeSizes": [0, 1, 0]
+      "relativeSizes": [0.15, 0.85, 0]
     },
     "terminal:1": {
       "data": {
