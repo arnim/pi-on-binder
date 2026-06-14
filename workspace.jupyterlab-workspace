@@ -3,21 +3,9 @@
     "layout-restorer:data": {
       "main": {
         "dock": {
-          "type": "split-area",
-          "orientation": "horizontal",
-          "sizes": [0.5, 0.5],
-          "children": [
-            {
-              "type": "tab-area",
-              "currentIndex": 0,
-              "widgets": ["terminal:1"]
-            },
-            {
-              "type": "tab-area",
-              "currentIndex": 0,
-              "widgets": ["editor:index.ipynb"]
-            }
-          ]
+          "type": "tab-area",
+          "currentIndex": 0,
+          "widgets": ["terminal:1"]
         },
         "current": "terminal:1"
       },
@@ -38,12 +26,6 @@
     "terminal:1": {
       "data": {
         "name": "1"
-      }
-    },
-    "editor:index.ipynb": {
-      "data": {
-        "path": "index.ipynb",
-        "factory": "Notebook"
       }
     }
   },
