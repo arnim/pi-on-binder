@@ -15,7 +15,7 @@
             {
               "type": "tab-area",
               "currentIndex": 0,
-              "widgets": ["notebook:index.ipynb"]
+              "widgets": ["editor:index.ipynb"]
             }
           ]
         },
@@ -40,7 +40,7 @@
         "name": "1"
       }
     },
-    "notebook:index.ipynb": {
+    "editor:index.ipynb": {
       "data": {
         "path": "index.ipynb",
         "factory": "Notebook"
