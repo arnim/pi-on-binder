@@ -32,6 +32,8 @@ Click the Binder badge above, or visit:
 https://mybinder.org/v2/gh/yfiua/pi-on-binder/HEAD
 ```
 
+An instance of pi should automatically start.
+
 ### Launch with an OpenRouter API key
 
 URL-encode your key, then launch via `pi-env`:
@@ -47,7 +49,7 @@ Do not share URLs containing real keys.
 
 ### Launch pi from the JupyterLab launcher
 
-After launch, click the **Pi Agent** icon (with the pi logo) in the launcher.
+After launch, click the **Pi Agent** icon (with the pi logo) in the Jupyter launcher.
 It opens a terminal and runs pi with `pi --model openrouter/deepseek/deepseek-v4-pro --approve` automatically.
 
 Alternatively, open a terminal and type `pi`.
